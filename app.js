@@ -12,7 +12,8 @@ app.use(bodyParser.json())
 
 //Importar Rotas
 
-const cardRoute = require('./routes/cards')
+const cardRoute = require('./routes/cards');
+const { all } = require('./routes/cards');
 
 app.use('/cards', cardRoute);
 
