@@ -33,5 +33,5 @@ mongoose.connect(
 
 
 //Porta ouvindo server
-app.listen(3003);
+app.listen(process.env.PORT || 3003);
 
